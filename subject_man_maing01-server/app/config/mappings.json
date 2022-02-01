@@ -1,0 +1,105 @@
+{
+  "{vendor}-{uuApp}-{uuSubApp}": {
+    "useCaseMap": {
+      "sys/uuAppWorkspace/init": {
+        "realization": "api/controllers/ManMainController.init",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "defaultUve": {
+        "realization": "index.html",
+        "httpMethod": "GET",
+        "type": "UVE"
+      },
+      "sys/uuAppWorkspace/initUve": {
+        "realization": "index.html",
+        "httpMethod": "GET",
+        "type": "UVE"
+      },
+
+      "subject/create": {
+        "realization": "api/controllers/ManCrudController.createSubject",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "subject/get": {
+        "realization": "api/controllers/ManCrudController.getSubjectById",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "subject/get/all": {
+        "realization": "api/controllers/ManCrudController.getAllSubjects",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "subject/edit": {
+        "realization": "api/controllers/ManCrudController.editSubject",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "subject/remove": {
+        "realization": "api/controllers/ManCrudController.removeSubject",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+
+      "program/get/all": {
+        "realization": "api/controllers/ManCrudController.getAllPrograms",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "program/get": {
+        "realization": "api/controllers/ManCrudController.getProgramById",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "program/create": {
+        "realization": "api/controllers/ManCrudController.createProgram",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "program/add/subject": {
+        "realization": "api/controllers/ManCrudController.addSubjectToProgram",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "program/subject/remove": {
+        "realization": "api/controllers/ManCrudController.removeSubjectFromProgram",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+
+      "topic/create": {
+        "realization": "api/controllers/ManCrudController.createTopicOfSubject",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "topic/update": {
+        "realization": "api/controllers/ManCrudController.updateTopicOfSubject",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "topic/remove": {
+        "realization": "api/controllers/ManCrudController.removeTopicOfSubject",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+
+      "material/create": {
+        "realization": "api/controllers/ManCrudController.addMaterialOfTopic",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "material/remove": {
+        "realization": "api/controllers/ManCrudController.removeMaterialOfTopic",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "authorization": {
+        "realization": "api/controllers/ManCrudController.authorization",
+        "httpMethod": "GET",
+        "type": "CMD"
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+	"awid": "22222222222222222222222222222222",
+	"name": "program xyz",
+	"organisation": "ls",
+	"description": "lorem ipsum",
+	"subjectsOfProgram": [
+		{
+			"awid": "22222222222222222222222222222222",
+			"name": "subjectName3",
+			"credits": "4",
+			"degree": "Bc",
+			"supervisor": "Smith",
+			"description": "Description3",
+			"studyTopics": [],
+			"sys": {
+				"cts": "2022-01-15T12:44:01.500Z",
+				"mts": "2022-01-15T12:44:01.500Z",
+				"rev": 0
+			},
+			"id": "61e2c1910a6c105fbc06a097",
+			"mandatory": "compulsory"
+		},
+        {
+			"awid": "22222222222222222222222222222222",
+			"name": "subjectName4",
+			"credits": "6",
+			"degree": "Bc",
+			"supervisor": "Smith",
+			"description": "Description4",
+			"studyTopics": [],
+			"sys": {
+				"cts": "2022-01-15T12:44:01.500Z",
+				"mts": "2022-01-15T12:44:01.500Z",
+				"rev": 0
+			},
+			"id": "61e2c1910a6c105fbc06a098",
+			"mandatory": "mandatory"
+		},
+        {
+			"awid": "22222222222222222222222222222222",
+			"name": "subjectName5",
+			"credits": "3",
+			"degree": "Bc",
+			"supervisor": "Smith",
+			"description": "Description5",
+			"studyTopics": [],
+			"sys": {
+				"cts": "2022-01-15T12:44:01.500Z",
+				"mts": "2022-01-15T12:44:01.500Z",
+				"rev": 0
+			},
+			"id": "61e2c1910a6c105fbc06a099",
+			"mandatory": "optional"
+		}
+	],
+	"sys": {
+		"cts": "2022-01-09T17:03:47.458Z",
+		"mts": "2022-01-15T12:45:29.555Z",
+		"rev": 1
+	},
+	"id": "61db1573fc40126e783388ed",
+	"uuAppErrorMap": {}
+}

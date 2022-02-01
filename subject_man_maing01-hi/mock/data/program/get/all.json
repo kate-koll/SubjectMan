@@ -1,0 +1,107 @@
+{
+    "itemList":[
+        {
+            "name":"Angličtina začátečníci",
+            "organisation": "Letni semestr",
+            "description": "alfa BetaGama sigmadelat PiRoMan",
+            "subjectsOfProgram":[
+                {
+                    "id":"61a2834148f2873f34c56378",
+                    "mandatory":"selective",
+                    "name": "subjectName1",
+					"credits": "5",
+					"degree": "Bc",
+					"supervisor": "Smith",
+					"description": "Description1"
+                },
+                {
+                    "id":"61a2834c48f2873f34c5637a",
+                    "mandatory":"obligatory",
+                    "name": "subjectName2",
+					"credits": "5",
+					"degree": "Bc",
+					"supervisor": "Smith",
+					"description": "Description2"
+                }
+            ],
+            "id": "61db1573fc40126e783388ed"
+        },
+        {
+            "name":"Angličtina pokročilí",
+            "organisation": "organisation of program",
+            "description": "Some shits...5",
+            "subjectsOfProgram":[
+                {
+                    "id":"61a2834148f2873f34c56378",
+                    "mandatory":"selective",
+                    "name": "subjectName3",
+					"credits": "5",
+					"degree": "Bc",
+					"supervisor": "Smith",
+					"description": "Description3"
+                },
+                {
+                    "id":"61a2834c48f2873f34c5637a",
+                    "mandatory":"obligatory",
+                    "name": "subjectName4",
+					"credits": "5",
+					"degree": "Bc",
+					"supervisor": "Smith",
+					"description": "Description4"
+                }
+            ],
+            "id": "61db1597fc40126e783388f0"
+        },
+        {
+            "name":"Němčina pokročilí",
+            "organisation": "organisation of program",
+            "description": "Some shits...5",
+            "subjectsOfProgram":[
+                {
+                    "id":"61a2834148f2873f34c56378",
+                    "mandatory":"selective",
+                    "name": "subjectName5",
+					"credits": "5",
+					"degree": "Bc",
+					"supervisor": "Smith",
+					"description": "Description5"
+                },
+                {
+                    "id":"61a2834c48f2873f34c5637a",
+                    "mandatory":"obligatory",
+                    "name": "subjectName6",
+					"credits": "5",
+					"degree": "Bc",
+					"supervisor": "Smith",
+					"description": "Description6"
+                }
+            ]
+        },
+        {
+            "name":"Latina začátečníci",
+            "organisation": "organisation of program",
+            "description": "Some shits...5",
+            "subjectsOfProgram":[
+                {
+                    "id":"61a2834148f2873f34c56378",
+                    "mandatory":"selective",
+                    "name": "subjectName7",
+					"credits": "5",
+					"degree": "Bc",
+					"supervisor": "Smith",
+					"description": "Description7"
+                },
+                {
+                    "id":"61a2834c48f2873f34c5637a",
+                    "mandatory":"obligatory",
+                    "name": "subjectName8",
+					"credits": "5",
+					"degree": "Bc",
+					"supervisor": "Smith",
+					"description": "Description8"
+                }
+            ],
+            "id": "61db1597fc40126e78338858"
+        }
+    ]
+}

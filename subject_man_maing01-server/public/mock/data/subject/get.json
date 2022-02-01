@@ -1,0 +1,20 @@
+{
+	"subjects": [
+		{
+			"awid": "22222222222222222222222222222222",
+			"name": "subjectName3",
+			"credits": "5",
+			"degree": "Bc",
+			"supervisor": "Smith",
+			"description": "Description3 sry, jsou to jen mockdata, takze nesedi se skutecne zvolenym predmetem",
+			"studyTopics": [],
+			"sys": {
+				"cts": "2021-12-12T14:09:58.029Z",
+				"mts": "2021-12-12T14:09:58.029Z",
+				"rev": 0
+			},
+			"id": "61b602b60327b8141c70d7c6"
+		}
+	],
+	"uuAppErrorMap": {}
+}

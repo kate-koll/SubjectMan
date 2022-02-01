@@ -1,0 +1,16 @@
+{
+	"awid": "22222222222222222222222222222222",
+	"name": "subjectName1-edited",
+	"credits": "5",
+	"degree": "Ing",
+	"supervisor": "Smith",
+	"description": "DescriptionEdited",
+	"studyTopics": [],
+	"sys": {
+		"cts": "2021-12-12T14:09:58.029Z",
+		"mts": "2022-01-23T07:26:16.038Z",
+		"rev": 1
+	},
+	"id": "61b602b60328a8141c70d7c6",
+	"uuAppErrorMap": {}
+}
